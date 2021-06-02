@@ -216,6 +216,7 @@ nav ul{
 
 .main2 ul {
   list-style:none;
+  display:block;
   padding:0;
 }
 
@@ -238,12 +239,16 @@ nav ul{
   transition:opacity 1s, transform .5s;
 }
 
+.main2 .storybox{
+  margin:0 auto;
+}
+
 .main2 .story {
   position:relative;
   top:200px;
   background:#fff;
   opacity:0.8;
-  width:270px;
+  width:300px;
   margin:0 auto;
   padding:15px;
   border-radius:10px;
